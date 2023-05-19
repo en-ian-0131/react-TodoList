@@ -1,0 +1,35 @@
+.active{
+    color: green;
+    font-weight: 700;
+}
+.complete{
+    color: gray;
+    text-decoration: line-through;
+    font-style: italic;
+}
+.todoIcon{
+    padding-left:10px ;
+    color: red;
+    opacity: 0;
+}
+
+li:hover > .todoIcon{
+    opacity: 1;
+}
+
+.filterBefore{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+.filterAfter{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: rgb(138, 138, 255);
+    border: 2px solid black;
+}
+.editButton{
+    margin-left: 5px;
+}
